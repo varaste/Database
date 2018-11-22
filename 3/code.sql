@@ -1,3 +1,3 @@
-SELECT title;
-FROM Movie natural join Rating
-WHERE stars is null
+select title
+from Movie 
+where mID not in (select mID from Rating)
