@@ -1,3 +1,6 @@
-SELECT *
-from student , apply , college
-where state is null and decision is null and major = 'cs' and college.cName = Carnegie Mellom 
+
+
+Select title,maxim-minim as 'rating spread'
+From
+    (Select title,max(stars) as maxim,min(stars) as minim From (Movie natural join Rating)
+    group by title)as newName
