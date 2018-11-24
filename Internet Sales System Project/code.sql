@@ -31,6 +31,9 @@ CREATE TABLE `p1`.`Order`(
     `DeliveryAddress` VARCHAR(255) NOT NULL 
 )
 
+ALTER TABLE `order` CHANGE `PaymentType` `PaymentType` 
+VARCHAR((`Creditpayment`,`Bankpayment`)) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+
 
 CREATE TABLE Product( 
     `ID` int(16) NOT null ,
