@@ -212,69 +212,69 @@ INSERT INTO Manager
 
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'velenjak');
+    VALUES(5353,'qwdq@gmail.com',1212,'Anahita','bazargani','male',09121345272,'velenjak');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Niavaran');
+    VALUES(0973,'askj@gmail.com',1233,'Azar','nazerfard','male',09110198171,'Niavaran');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'pasdaran');
+    VALUES(0533,'avkjl@gmail.com',0191,'mehran','marsosi','male',09119181716,'pasdaran');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'ponak');
+    VALUES(2222,'aioufv@gmail.com',1377,'danial','hatam','male',09123242526,'ponak');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'vanak');
+    VALUES(1111,'posdv@gmail.com',0393,'reza','madani','male',09192928272,'vanak');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'darake');
+    VALUES(3333,'ewnwe@gmail.com',1377,'sourush','noshad','male',09103938363,'darake');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Narmak');
+    VALUES(4444,'welnfln@gmail.com',1377,'mahdi','ahmadpanah','male',09104029303,'Narmak');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'velenjak');
+    VALUES(5555,'wefinwe@gmail.com',4680,'mahdis','nikpor','male',09120183745,'velenjak');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Lavizan');
+    VALUES(6666,'poiwjef@gmail.com',0191,'Laleh','khodaverdian','male',09109832145,'Lavizan');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Shemiran');
+    VALUES(7777,'asdvf@gmail.com',8392,'Neda','bagheri','male',09108362748,'Shemiran');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'SaadatAbad');
+    VALUES(8888,'brf@gmail.com',1335,'satar','ahmadi','male',09143728394,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Gisha');
+    VALUES(9999,'mkuieyh@gmail.com',1347,'Yasamin','safari','female',09124262893,'Gisha');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Gomrok');
+    VALUES(1122,'hetyj@gmail.com',1377,'Sepideh','varaste','female',09234123444,'Gomrok');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'SaadatAbad');
+    VALUES(2233,'yoltuk@gmail.com',1243,' Nazanin','hadifar','female',09123423466,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Jamaran');
+    VALUES(3344,'tikukkt@gmail.com',1373,'Sara','eslami','female',09134676767,'Jamaran');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Farahzad');
+    VALUES(4455,'jrtjejtyjgh@gmail.com',0191,'Roxana','sabaee','female',09165756777,'Farahzad');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Evin');
+    VALUES(5566,'dfh@gmail.com',8392,'Soraya','faraji','female',09456565651,'Evin');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'SaadatAbad');
+    VALUES(5565,'dfh56u56h@gmail.com',1373,'parvane','mirkalili','female',09156756756,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Ekhtiarieh');
+    VALUES(6677,'46yu57iufh@gmail.com',1373,'Sepideh','bagheri','female',09156756777,'Ekhtiarieh');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'Doulat');
+    VALUES(7788,'4t3tgg@gmail.com',8392,'nastaran','mosavi','female',09153635645,'Doulat');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'SaadatAbad');
+    VALUES(8899,'4yhyjdfj@gmail.com',0191,'firoze','farbeh','female',09112342344,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(,'@gmail.com',,'','','male',091,'darake');
+    VALUES(9900,'rjh57uyhjnd@gmail.com',8392,'farnaz','oodi','female',09136546456,'darake');
 
 
