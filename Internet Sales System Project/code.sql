@@ -18,9 +18,19 @@ CREATE TABLE `p1`.`Vendor`
     `City` VARCHAR(255) NOT NULL , 
     `ManagerID` INT(255) NOT NULL , 
     `Addrss` VARCHAR(255) NOT NULL , 
-    `Phone` INT(255) NOT NULL ) ENGINE = InnoDB;
+    `Phone` INT(255) NOT NULL 
+    ) ENGINE = InnoDB;
 
 
+CREATE TABLE 'p1'.'Order'(
+    'ID' INT(255) NOT NULL,
+    'VendorID' INT(255) NOT NULL,
+    'CustomerID'INT(255) NOT NULL,
+    'Status'VARCHAR(255) NOT NULL,
+    'PaymentType'VARCHAR(255) NOT NULL,
+    'CreatedAt'DATE,
+    'DeliveryAddress' VARCHAR(255) NOT NULL
+)ENGINE = InnoDB;
 
 
 
