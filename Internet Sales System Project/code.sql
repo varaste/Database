@@ -55,3 +55,27 @@ CREATE TABLE `orderproduct`(
     `amount` int(255)
 
 )
+
+ALTER TABLE `order` ADD PRIMARY KEY(`ID`);
+
+
+
+INSERT INTO `vendor` (`ID`, `Title`, `City`, `ManagerID`, `Addrss`, `Phone`) 
+VALUES (
+    ASCII('1064646963580194'), 
+    'PASDARAN', 
+    'TEHRAN', 
+    ASCII('1117692733957623'), 
+    CHAR('PASDARAN'), 
+    ASCII('02122526292')
+);
+
+INSERT INTO `vendor` (`ID`, `Title`, `City`, `ManagerID`, `Addrss`, `Phone`) 
+VALUES (
+    ASCII('1264626962580294'), 
+    'SAADAT', 
+    'TEHRAN', 
+    ASCII('1111692133951613'), 
+    CHAR('MAN2'), 
+    ASCII('0212282759635')
+);
