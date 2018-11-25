@@ -152,8 +152,7 @@ ALTER TABLE Orders
 ADD FOREIGN KEY (CustomerID)
 REFERENCES CUSTOMER(ID);
 
-
-
+ 
 
 INSERT INTO Customer
 	VALUES(0,'sqfghwda@sas.com',2000,'sina','hamidi','male',178000000,09128966548,'velenjak');
@@ -680,3 +679,7 @@ WHERE 'PaymentType'='Creditpayment';
 SELECT orders.`ID`, `VendorID`, `CustomerID`, `Status`, `PaymentType`, `CreatedAt`, `DeliveryAddress` 
 FROM `orders`,`customer` 
 WHERE PaymentType='Creditpayment';
+
+
+
+
