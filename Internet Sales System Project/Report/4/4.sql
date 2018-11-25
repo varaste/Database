@@ -1,5 +1,3 @@
-
-
-SELECT DISTINCT  vendor.`ID`, vendor.`Title`, vendor.`City`, vendor.`ManagerID`, vendor.`Address`, vendor.`Phone` ,Product.`ID`,product.`Title`, product.`price`,orderproduct.amount
-FROM `vendor`, `orderproduct`, `product`,`orders`
+SELECT DISTINCT  vendor.`ID`, vendor.`Title`, `City`, `ManagerID`, `Address`, `Phone` ,product.`ID`, product.`Title`, product.`price`
+FROM `vendor` , `vendorproduct`,orderproduct,product
 WHERE orderproduct.`amount`>10;
