@@ -1,6 +1,4 @@
 
-
-
 CREATE TABLE `Ap1`.`Order`( 
     `ID` INT(4) NOT NULL, 
     `VendorID` INT(4) NOT NULL, 
@@ -10,8 +8,6 @@ CREATE TABLE `Ap1`.`Order`(
     `CreatedAt`DATE, 
     `DeliveryAddress` VARCHAR(100)  
 );
-
-
 
 
 CREATE TABLE `Ap1`.`Customer`( 
@@ -39,7 +35,6 @@ CREATE TABLE `AP1`.`Manager`(
 );
 
 
-
 CREATE TABLE `Ap1`.`Order`( 
     `ID` INT(4) NOT NULL, 
     `VendorID` INT(4) NOT NULL, 
@@ -49,8 +44,6 @@ CREATE TABLE `Ap1`.`Order`(
     `CreatedAt`DATE, 
     `DeliveryAddress` VARCHAR(100)  
 );
-
-
 
 
 CREATE TABLE `Ap1`.`Customer`( 
@@ -77,6 +70,7 @@ CREATE TABLE `AP1`.`Manager`(
     `Address` VARCHAR(100)
 );
 
+
 CREATE TABLE `AP1`.`Vendor`(
     `ID` INT(4) NOT NULL, 
     `Title` varchar(50),
@@ -85,6 +79,7 @@ CREATE TABLE `AP1`.`Vendor`(
 	`Address` VARCHAR(100),
 	`Phone` int(8)
 );
+
 
 CREATE TABLE `ap1`.`Product`(
 	`ID` INT(4) NOT NULL, 
@@ -92,25 +87,19 @@ CREATE TABLE `ap1`.`Product`(
     `price` BIGINT(200)
 );
     
+
 CREATE TABLE `ap1`.`VendorProduct`(
 	`venderid` int(4) ,
     `productid` int(4),
     `amount` int(20)
 );
     
+
 CREATE TABLE `ap1`.`OrderProduct`(
 	`OrderID` int(4) ,
 	`productid` int(4),
     `amount` int(20)
 );
-
-
-
-
-
-
-
-
 
 
 CREATE TABLE `AP1`.`Vendor`(
@@ -122,28 +111,27 @@ CREATE TABLE `AP1`.`Vendor`(
 	`Phone` int(8)
 );
 
+
 CREATE TABLE `ap1`.`Product`(
 	`ID` INT(4) NOT NULL, 
     `Title` varchar(50),
     `price` BIGINT(999999999)
 );
     
+
 CREATE TABLE `ap1`.`VendorProduct`(
 	`venderid` int(4) ,
     `productid` int(4),
     `amount` int(20)
 );
     
+
 CREATE TABLE `ap1`.`OrderProduct`(
 	`OrderID` int(4) ,
 	`productid` int(4),
     `amount` int(20)
 );
     
-
-
-
-
 
 
 
@@ -204,7 +192,6 @@ INSERT INTO Customer
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 
 INSERT INTO Manager
@@ -280,6 +267,7 @@ INSERT INTO Manager
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 INSERT INTO vendor
 	VALUES(1000,'sepah','tehran',8773,'SaadatAbad',22174149
 );
@@ -321,7 +309,6 @@ INSERT INTO vendor
 );
 
 
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ///ID, VendorID, CustomerID, Status, PaymentType, CreatedAt, DeliveryAddress
@@ -329,97 +316,141 @@ INSERT INTO vendor
 
 INSERT INTO orders
 	VALUES(500,1000,0,'Registered','Creditpayment','2018-11-10','velenjak');
+
 INSERT INTO orders
 	VALUES(501,1000,0,'Registered','Creditpayment','2018-1-8','Niavaran');
+
 INSERT INTO orders
 	VALUES(502,1000,0,'Registered','Creditpayment','2018-1-6','pasdaran');
+
 INSERT INTO orders
 	VALUES(503,1000,0,'Registered','Creditpayment','2018-12-18','ponak');
+
 INSERT INTO orders
 	VALUES(504,1000,0,'Registered','Creditpayment','2018-6-12','velenjak');
+
 INSERT INTO orders
 	VALUES(505,1000,0,'Registered','Creditpayment','2018-11-10','Jamaran');
+
 INSERT INTO orders
 	VALUES(506,1000,0,'Registered','Bankpayment','2018-1-8','Doulat');
+
 INSERT INTO orders
 	VALUES(507,1000,0,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(508,1000,0,'Registered','Bankpayment','2018-12-18','Gisha');
+
 INSERT INTO orders
 	VALUES(509,1000,0,'Registered','Bankpayment','2018-6-12','Farahzad');
+
 INSERT INTO orders
 	VALUES(510,1001,1,'Registered','Creditpayment','2018-1-10','velenjak');
+
 INSERT INTO orders
 	VALUES(511,1001,1,'Registered','Creditpayment','2018-9-8','Niavaran');
+
 INSERT INTO orders
 	VALUES(512,1001,1,'Registered','Creditpayment','2018-6-6','pasdaran');
+
 INSERT INTO orders
 	VALUES(513,1001,1,'Registered','Creditpayment','2018-8-18','ponak');
+
 INSERT INTO orders
 	VALUES(514,1001,1,'Registered','Creditpayment','2018-6-12','velenjak');
+
 INSERT INTO orders
 	VALUES(515,1002,1,'Registered','Creditpayment','2018-11-10','Jamaran');
+
 INSERT INTO orders
 	VALUES(516,1004,1,'Registered','Bankpayment','2018-1-8','Doulat');
+
 INSERT INTO orders
 	VALUES(517,1003,1,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(518,1003,1,'Registered','Bankpayment','2018-12-18','Gisha');
+
 INSERT INTO orders
 	VALUES(519,1005,1,'Registered','Bankpayment','2018-6-12','Farahzad');
+
 INSERT INTO orders
 	VALUES(520,1006,2,'Registered','Creditpayment','2018-1-10','velenjak');
+
 INSERT INTO orders
 	VALUES(521,1006,2,'Registered','Creditpayment','2018-9-8','Niavaran');
+
 INSERT INTO orders
 	VALUES(522,1007,2,'Registered','Creditpayment','2018-6-6','pasdaran');
+
 INSERT INTO orders
 	VALUES(523,1008,3,'Registered','Creditpayment','2018-8-18','ponak');
+
 INSERT INTO orders
 	VALUES(524,1008,3,'Registered','Creditpayment','2018-6-12','velenjak');
+
 INSERT INTO orders
 	VALUES(525,1008,3,'Registered','Creditpayment','2018-11-10','Jamaran');
+
 INSERT INTO orders
 	VALUES(526,1008,4,'Registered','Bankpayment','2018-1-8','Doulat');
+
 INSERT INTO orders
 	VALUES(527,1007,5,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(528,1008,4,'Registered','Bankpayment','2018-12-18','Gisha');
+
 INSERT INTO orders
 	VALUES(529,1006,5,'Registered','Bankpayment','2018-6-12','Farahzad');
+
 INSERT INTO orders
 	VALUES(530,1007,5,'Registered','Creditpayment','2018-1-10','velenjak');
+
 INSERT INTO orders
 	VALUES(531,1009,6,'Registered','Creditpayment','2018-9-8','Niavaran');
+
 INSERT INTO orders
 	VALUES(532,1001,7,'Registered','Creditpayment','2018-6-6','pasdaran');
+
 INSERT INTO orders
 	VALUES(533,1002,8,'Registered','Creditpayment','2018-8-18','ponak');
+
 INSERT INTO orders
 	VALUES(534,1003,8,'Registered','Creditpayment','2018-6-12','velenjak');
+
 INSERT INTO orders
 	VALUES(535,1004,9,'Registered','Creditpayment','2018-11-10','Jamaran');
+
 INSERT INTO orders
 	VALUES(536,1005,10,'Registered','Bankpayment','2018-1-8','Doulat');
+
 INSERT INTO orders
 	VALUES(537,1006,10,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(538,1007,11,'Registered','Bankpayment','2018-12-18','Gisha');
+
 INSERT INTO orders
 	VALUES(539,1008,12,'Registered','Bankpayment','2018-6-12','Farahzad');
+
 INSERT INTO orders
 	VALUES(540,1008,14,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(541,1006,15,'Registered','Bankpayment','2018-12-18','Gisha');
+
 INSERT INTO orders
 	VALUES(542,1005,16,'Registered','Bankpayment','2018-3-12','Farahzad');
+
 INSERT INTO orders
 	VALUES(543,1002,17,'Registered','Bankpayment','2018-3-6','Ekhtiarieh');
+
 INSERT INTO orders
 	VALUES(544,1003,17,'Registered','Bankpayment','2018-2-18','Gisha');
+
 INSERT INTO orders
 	VALUES(545,1003,16,'Registered','Bankpayment','2018-3-12','Farahzad');
-
 
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////////////////////////
@@ -478,7 +509,9 @@ INSERT INTO product
 INSERT INTO product
     VALUES(315,'WateR',450000);
 
+
 /////////////////////////////////////////////////////////////////////////////////////
+
 
 INSERT INTO VendorProduct
     VALUES(1000,300,11);
@@ -587,6 +620,7 @@ INSERT INTO VendorProduct
 
 INSERT INTO VendorProduct
     VALUES(1007,300,35);
+
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -805,3 +839,5 @@ INSERT INTO OrderProduct
 ////////////////////////////////////////////////////////////////////////////////////////
 
 
+ALTER TABLE customer
+ADD PRIMARY KEY (ID);
