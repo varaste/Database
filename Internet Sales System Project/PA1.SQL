@@ -152,6 +152,25 @@ ALTER TABLE Orders
 ADD FOREIGN KEY (CustomerID)
 REFERENCES CUSTOMER(ID);
 
+ALTER TABLE vendorproduct
+ADD FOREIGN KEY (venderid)
+REFERENCES vendor(ID);
+
+
+ALTER TABLE vendorproduct
+ADD FOREIGN KEY (productid)
+REFERENCES product(ID);
+ 
+ALTER TABLE orderproduct
+ADD FOREIGN KEY (OrderID)
+REFERENCES orders(ID);
+
+ALTER TABLE orderproduct
+ADD FOREIGN KEY (productid)
+REFERENCES product(ID);
+
+
+
  
 
 INSERT INTO Customer
@@ -650,6 +669,7 @@ INSERT INTO OrderProduct
 INSERT INTO OrderProduct
     VALUES (500,300,2);
 
+UPDATE `orderproduct` SET `amount` = '11' WHERE `orderproduct`.`OrderID` = 506 AND `orderproduct`.`productid` = 303;
 
 
 
