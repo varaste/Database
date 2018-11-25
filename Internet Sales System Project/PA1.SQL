@@ -35,6 +35,7 @@ CREATE TABLE `AP1`.`Manager`(
 );
 
 
+
 CREATE TABLE `Ap1`.`Order`( 
     `ID` INT(4) NOT NULL, 
     `VendorID` INT(4) NOT NULL, 
@@ -131,7 +132,25 @@ CREATE TABLE `ap1`.`OrderProduct`(
 	`productid` int(4),
     `amount` int(20)
 );
-    
+
+
+
+
+ALTER TABLE `manager` ADD PRIMARY KEY(`ID`);
+
+ALTER TABLE `vendor` ADD PRIMARY KEY(`ID`);
+
+ALTER TABLE `orders` ADD PRIMARY KEY(`ID`);
+
+ALTER TABLE `product` ADD PRIMARY KEY(`ID`);
+
+ALTER TABLE `VENDORproduct` ADD PRIMARY KEY(`productid`,`Venderid`);
+
+ALTER TABLE `OrderProduct` ADD PRIMARY KEY(`OrderID`,`ProductID`);
+
+ALTER TABLE Orders
+ADD FOREIGN KEY (CustomerID)
+REFERENCES CUSTOMER(ID);
 
 
 
@@ -628,216 +647,36 @@ INSERT INTO VendorProduct
 INSERT INTO OrderProduct
     VALUES (500,300,2);
 
-INSERT INTO OrderProduct
-    VALUES (500,301,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,302,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,304,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,305,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,306,2);
-
-INSERT INTO OrderProduct
-    VALUES (500,307,2);
-
-INSERT INTO OrderProduct
-    VALUES (501,300,3);
-
-INSERT INTO OrderProduct
-    VALUES (501,301,3);
-
-INSERT INTO OrderProduct
-    VALUES (501,302,3);
-
-INSERT INTO OrderProduct
-    VALUES (501,303,3);
-
-INSERT INTO OrderProduct
-    VALUES (502,304,1);
-
-INSERT INTO OrderProduct
-    VALUES (502,305,1);
-
-INSERT INTO OrderProduct
-    VALUES (502,306,1);
-
-INSERT INTO OrderProduct
-    VALUES (503,300,4);
-
-INSERT INTO OrderProduct
-    VALUES (502,307,1);
-
-INSERT INTO OrderProduct
-    VALUES (502,308,1);
-
-INSERT INTO OrderProduct
-    VALUES (502,309,1);
-
-INSERT INTO OrderProduct
-    VALUES (503,310,4);
-
-INSERT INTO OrderProduct
-    VALUES (503,311,4);
-
-INSERT INTO OrderProduct
-    VALUES (503,312,4);
-
-INSERT INTO OrderProduct
-    VALUES (504,313,2);
-
-INSERT INTO OrderProduct
-    VALUES (504,314,2);
-
-INSERT INTO OrderProduct
-    VALUES (504,315,2);
-
-INSERT INTO OrderProduct
-    VALUES (504,300,2);
-
-INSERT INTO OrderProduct
-    VALUES (504,301,2);
-
-INSERT INTO OrderProduct
-    VALUES (505,302,2);
-
-INSERT INTO OrderProduct
-    VALUES (506,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (506,304,2);
-
-INSERT INTO OrderProduct
-    VALUES (507,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (508,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (509,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (510,303,2);
 
 INSERT INTO OrderProduct
-    VALUES (511,303,2);
+    VALUES (500,300,2);
 
-INSERT INTO OrderProduct
-    VALUES (512,300,1);
-
-INSERT INTO OrderProduct
-    VALUES (513,300,1);
-
-INSERT INTO OrderProduct
-    VALUES (514,301,2);
-
-INSERT INTO OrderProduct
-    VALUES (515,307,2);
-
-INSERT INTO OrderProduct
-    VALUES (516,303,3);
-
-INSERT INTO OrderProduct
-    VALUES (517,302,1);
-
-INSERT INTO OrderProduct
-    VALUES (518,303,2);
-
-INSERT INTO OrderProduct
-    VALUES (519,303,3);
-
-INSERT INTO OrderProduct
-    VALUES (520,300,2);
-
-INSERT INTO OrderProduct
-    VALUES (521,300,1);
-
-INSERT INTO OrderProduct
-    VALUES (522,300,1);
-
-INSERT INTO OrderProduct
-    VALUES (523,300,2);
-
-INSERT INTO OrderProduct
-    VALUES (524,302,5);
-
-INSERT INTO OrderProduct
-    VALUES (525,303,5);
-
-INSERT INTO OrderProduct
-    VALUES (526,310,3);
-
-INSERT INTO OrderProduct
-    VALUES (527,310,3);
-
-INSERT INTO OrderProduct
-    VALUES (528,312,3);
 
-INSERT INTO OrderProduct
-    VALUES (528,312,1);
-
-INSERT INTO OrderProduct
-    VALUES (529,313,1);
-
-INSERT INTO OrderProduct
-    VALUES (530,314,2);
-
-INSERT INTO OrderProduct
-    VALUES (531,315,3);
-
-INSERT INTO OrderProduct
-    VALUES (532,313,2);
-
-INSERT INTO OrderProduct
-    VALUES (533,301,1); 
-
-INSERT INTO OrderProduct
-    VALUES (534,311,2);
-
-INSERT INTO OrderProduct
-    VALUES (535,310,3);
-
-INSERT INTO OrderProduct
-    VALUES (536,309,4);
-
-INSERT INTO OrderProduct
-    VALUES (537,301,5);
-
-INSERT INTO OrderProduct
-    VALUES (538,300,6);
-
-INSERT INTO OrderProduct
-    VALUES (539,308,6);
-
-INSERT INTO OrderProduct
-    VALUES (540,307,8);
-
-INSERT INTO OrderProduct
-    VALUES (542,306,2);
-
-INSERT INTO OrderProduct
-    VALUES (543,305,1);
-
-INSERT INTO OrderProduct
-    VALUES (544,303,1);
 
-INSERT INTO OrderProduct
-    VALUES (545,303,1);
 
-INSERT INTO OrderProduct
-    VALUES (545,302,1);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
 
+
 ALTER TABLE customer
 ADD PRIMARY KEY (ID);
+
+
+
+
+SELECT customer
+FROM `customer`,`orders` 
+WHERE orders.PaymentType='Creditpayment';
+
+
+SELECT FirstName
+FROM 'customer','order' 
+WHERE 'PaymentType'='Creditpayment';
+
+
+
+SELECT orders.`ID`, `VendorID`, `CustomerID`, `Status`, `PaymentType`, `CreatedAt`, `DeliveryAddress` 
+FROM `orders`,`customer` 
+WHERE PaymentType='Creditpayment';
