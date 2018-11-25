@@ -149,58 +149,58 @@ CREATE TABLE `ap1`.`OrderProduct`(
 
 
 INSERT INTO Customer
-	VALUES(7073,'sqfghwda@sas.com',2000,'sina','hamidi','male',178000000,09128966548,'velenjak');
+	VALUES(0,'sqfghwda@sas.com',2000,'sina','hamidi','male',178000000,09128966548,'velenjak');
 
 INSERT INTO Customer
-	VALUES(1234,'qhwe@gmail.com',4231,'amir','varaste','male',12023000,09211212122,'tehransar');
+	VALUES(1,'qhwe@gmail.com',4231,'amir','varaste','male',12023000,09211212122,'tehransar');
 
 INSERT INTO Customer
-	VALUES(5678,'ewfghe@gmail.com',5443,'arya','sajjadi','male',102346000,09123456789,'satarkhan');
+	VALUES(2,'ewfghe@gmail.com',5443,'arya','sajjadi','male',102346000,09123456789,'satarkhan');
 
 INSERT INTO Customer
-	VALUES(9087,'efghrt@gmail.com',3434,'amir','rahimi','male',6605000,09987654321,'gheytariye');
+	VALUES(3,'efghrt@gmail.com',3434,'amir','rahimi','male',6605000,09987654321,'gheytariye');
 
 INSERT INTO Customer
-	VALUES(6543,'rttryy@gmail.com',5645,'arya','homayon','male',5065000,09098765432,'velenjak');
+	VALUES(4,'rttryy@gmail.com',5645,'arya','homayon','male',5065000,09098765432,'velenjak');
 
 INSERT INTO Customer
-	VALUES(2357,'rtyrty@gmail.com',4523,'saman','dizani','male',56032000,09097867654,'darake');
+	VALUES(5,'rtyrty@gmail.com',4523,'saman','dizani','male',56032000,09097867654,'darake');
 
 INSERT INTO Customer
-	VALUES(5432,'dghsaar@gmail.com',2345,'sina','safabakhsh','male',2350576000,09095687452,'pasdaran');
+	VALUES(6,'dghsaar@gmail.com',2345,'sina','safabakhsh','male',2350576000,09095687452,'pasdaran');
 
 INSERT INTO Customer
-	VALUES(0292,'vbmnv@gmail.com',1231,'mahdis','zarandi','female',41741000,09112345678,'Narmak');
+	VALUES(7,'vbmnv@gmail.com',1231,'mahdis','zarandi','female',41741000,09112345678,'Narmak');
 
 INSERT INTO Customer
-	VALUES(1326,'ee@gmail.com',2342,'setare','norhoseyni','female',5285000,09114526398,'Shemiran');
+	VALUES(8,'ee@gmail.com',2342,'setare','norhoseyni','female',5285000,09114526398,'Shemiran');
 
 INSERT INTO Customer
-	VALUES(7896,'sdfewsdffb@gmail.com',3534,'mahdis','zarandi','female',963963000,09112548796,'Shemiran');
+	VALUES(9,'sdfewsdffb@gmail.com',3534,'mahdis','zarandi','female',963963000,09112548796,'Shemiran');
 
 INSERT INTO Customer
-	VALUES(7465,'sasdfedfb@gmail.com',3455,'setare','homayonpor','female',12313000,09132569847,'Narmak');
+	VALUES(10,'sasdfedfb@gmail.com',3455,'setare','homayonpor','female',12313000,09132569847,'Narmak');
 
 INSERT INTO Customer
-	VALUES(2589,'sdfb@gmail.com',4564,'nastaran','safabakhsh','female',4564000,09112365985,'Narmak');
+	VALUES(11,'sdfb@gmail.com',4564,'nastaran','safabakhsh','female',4564000,09112365985,'Narmak');
 
 INSERT INTO Customer
-	VALUES(1596,'dsfbdsfb@gmail.com',5678,'nastaran','homayonpor','female',456445000,09198642345,'vanak');
+	VALUES(12,'dsfbdsfb@gmail.com',5678,'nastaran','homayonpor','female',456445000,09198642345,'vanak');
 
 INSERT INTO Customer
-	VALUES(3574,'sdfb@gmail.com',6786,'sara','homayonpor','female',789978000,09111226685,'vanak');
+	VALUES(13,'sdfb@gmail.com',6786,'sara','homayonpor','female',789978000,09111226685,'vanak');
 
 INSERT INTO Customer
-	VALUES(3578,'hk,@gmail.com',7899,'setare','safabakhsh','female',789789000,09112336695,'pasdaran');
+	VALUES(14,'hk,@gmail.com',7899,'setare','safabakhsh','female',789789000,09112336695,'pasdaran');
 
 INSERT INTO Customer
-	VALUES(3659,'fdghn@gmail.com',7986,'mahdis','norhoseyni','female',456456000,09188569932,'ponak');
+	VALUES(15,'fdghn@gmail.com',7986,'mahdis','norhoseyni','female',456456000,09188569932,'ponak');
 
 INSERT INTO Customer
-	VALUES(4628,'gujhk@gmail.com',9782,'mina','zarandi','female',123132000,09121459638,'velenjak');
+	VALUES(16,'gujhk@gmail.com',9782,'mina','zarandi','female',123132000,09121459638,'velenjak');
 
 INSERT INTO Customer
-	VALUES(9137,'k,jhk,@gmail.com',3455,'setare','norhoseyni','female',63963000,09114786597,'pasdaran');
+	VALUES(17,'k,jhk,@gmail.com',3455,'setare','norhoseyni','female',63963000,09114786597,'pasdaran');
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -208,78 +208,217 @@ INSERT INTO Customer
 
 
 INSERT INTO Manager
-    VALUES(0987,'sdfbsda@gmail.com',5454,'iman','shahriyari','male',09121152649,'Niavaran');
+    VALUES(100,'sdfbsda@gmail.com',5454,'iman','shahriyari','male',09121152649,'Niavaran');
 
 
 INSERT INTO Manager
-    VALUES(5353,'qwdq@gmail.com',1212,'Anahita','bazargani','male',09121345272,'velenjak');
+    VALUES(101,'qwdq@gmail.com',1212,'Anahita','bazargani','male',09121345272,'velenjak');
 
 INSERT INTO Manager
-    VALUES(0973,'askj@gmail.com',1233,'Azar','nazerfard','male',09110198171,'Niavaran');
+    VALUES(102,'askj@gmail.com',1233,'Azar','nazerfard','male',09110198171,'Niavaran');
 
 INSERT INTO Manager
-    VALUES(0533,'avkjl@gmail.com',0191,'mehran','marsosi','male',09119181716,'pasdaran');
+    VALUES(103,'avkjl@gmail.com',0191,'mehran','marsosi','male',09119181716,'pasdaran');
 
 INSERT INTO Manager
-    VALUES(2222,'aioufv@gmail.com',1377,'danial','hatam','male',09123242526,'ponak');
+    VALUES(104,'aioufv@gmail.com',1377,'danial','hatam','male',09123242526,'ponak');
 
 INSERT INTO Manager
-    VALUES(1111,'posdv@gmail.com',0393,'reza','madani','male',09192928272,'vanak');
+    VALUES(105,'posdv@gmail.com',0393,'reza','madani','male',09192928272,'vanak');
 
 INSERT INTO Manager
-    VALUES(3333,'ewnwe@gmail.com',1377,'sourush','noshad','male',09103938363,'darake');
+    VALUES(106,'ewnwe@gmail.com',1377,'sourush','noshad','male',09103938363,'darake');
 
 INSERT INTO Manager
-    VALUES(4444,'welnfln@gmail.com',1377,'mahdi','ahmadpanah','male',09104029303,'Narmak');
+    VALUES(107,'welnfln@gmail.com',1377,'mahdi','ahmadpanah','male',09104029303,'Narmak');
 
 INSERT INTO Manager
-    VALUES(5555,'wefinwe@gmail.com',4680,'mahdis','nikpor','male',09120183745,'velenjak');
+    VALUES(108,'wefinwe@gmail.com',4680,'mahdis','nikpor','male',09120183745,'velenjak');
 
 INSERT INTO Manager
-    VALUES(6666,'poiwjef@gmail.com',0191,'Laleh','khodaverdian','male',09109832145,'Lavizan');
+    VALUES(109,'poiwjef@gmail.com',0191,'Laleh','khodaverdian','male',09109832145,'Lavizan');
 
 INSERT INTO Manager
-    VALUES(7777,'asdvf@gmail.com',8392,'Neda','bagheri','male',09108362748,'Shemiran');
+    VALUES(110,'asdvf@gmail.com',8392,'Neda','bagheri','male',09108362748,'Shemiran');
 
 INSERT INTO Manager
-    VALUES(8888,'brf@gmail.com',1335,'satar','ahmadi','male',09143728394,'SaadatAbad');
+    VALUES(111,'brf@gmail.com',1335,'satar','ahmadi','male',09143728394,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(9999,'mkuieyh@gmail.com',1347,'Yasamin','safari','female',09124262893,'Gisha');
+    VALUES(112,'mkuieyh@gmail.com',1347,'Yasamin','safari','female',09124262893,'Gisha');
 
 INSERT INTO Manager
-    VALUES(1122,'hetyj@gmail.com',1377,'Sepideh','varaste','female',09234123444,'Gomrok');
+    VALUES(113,'hetyj@gmail.com',1377,'Sepideh','varaste','female',09234123444,'Gomrok');
 
 INSERT INTO Manager
-    VALUES(2233,'yoltuk@gmail.com',1243,' Nazanin','hadifar','female',09123423466,'SaadatAbad');
+    VALUES(114,'yoltuk@gmail.com',1243,' Nazanin','hadifar','female',09123423466,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(3344,'tikukkt@gmail.com',1373,'Sara','eslami','female',09134676767,'Jamaran');
+    VALUES(115,'tikukkt@gmail.com',1373,'Sara','eslami','female',09134676767,'Jamaran');
 
 INSERT INTO Manager
-    VALUES(4455,'jrtjejtyjgh@gmail.com',0191,'Roxana','sabaee','female',09165756777,'Farahzad');
+    VALUES(116,'jrtjejtyjgh@gmail.com',0191,'Roxana','sabaee','female',09165756777,'Farahzad');
 
 INSERT INTO Manager
-    VALUES(5566,'dfh@gmail.com',8392,'Soraya','faraji','female',09456565651,'Evin');
+    VALUES(117,'dfh@gmail.com',8392,'Soraya','faraji','female',09456565651,'Evin');
 
 INSERT INTO Manager
-    VALUES(5565,'dfh56u56h@gmail.com',1373,'parvane','mirkalili','female',09156756756,'SaadatAbad');
+    VALUES(118,'dfh56u56h@gmail.com',1373,'parvane','mirkalili','female',09156756756,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(6677,'46yu57iufh@gmail.com',1373,'Sepideh','bagheri','female',09156756777,'Ekhtiarieh');
+    VALUES(119,'46yu57iufh@gmail.com',1373,'Sepideh','bagheri','female',09156756777,'Ekhtiarieh');
 
 INSERT INTO Manager
-    VALUES(7788,'4t3tgg@gmail.com',8392,'nastaran','mosavi','female',09153635645,'Doulat');
+    VALUES(120,'4t3tgg@gmail.com',8392,'nastaran','mosavi','female',09153635645,'Doulat');
 
 INSERT INTO Manager
-    VALUES(8899,'4yhyjdfj@gmail.com',0191,'firoze','farbeh','female',09112342344,'SaadatAbad');
+    VALUES(121,'4yhyjdfj@gmail.com',0191,'firoze','farbeh','female',09112342344,'SaadatAbad');
 
 INSERT INTO Manager
-    VALUES(9900,'rjh57uyhjnd@gmail.com',8392,'farnaz','oodi','female',09136546456,'darake');
+    VALUES(122,'rjh57uyhjnd@gmail.com',8392,'farnaz','oodi','female',09136546456,'darake');
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+INSERT INTO vendor
+	VALUES(1000,'sepah','tehran',8773,'SaadatAbad',22174149
+);
+
+INSERT INTO vendor
+	VALUES(1001,'SaadatAbad','tehran',1030,'satarkhan',22426292
+);
+
+INSERT INTO vendor
+	VALUES(1002,'refah','tehran',5379,'pasdaran',44504035
+);
+
+INSERT INTO vendor
+	VALUES(1003,'hamshahri','tehran',4968,'Shemiran',22208030
+);
+
+INSERT INTO vendor
+	VALUES(1004,'ok','tehran',3162,'velenjak',33565241
+);
+
+INSERT INTO vendor
+	VALUES(1005,'hami','tehran',6886,'Evin',88564412
+);
+
+INSERT INTO vendor
+	VALUES(1006,'sobhan','tabriz',9758,'Ekhtiarieh',778885692
+);
+
+INSERT INTO vendor
+	VALUES(1007,'arya','shiraz',5715,'darake',44506060
+);
+
+INSERT INTO vendor
+	VALUES(1008,'varaste','rasht',312,'Doulat',51242563
+);
+
+INSERT INTO vendor
+	VALUES(1009,'moghimi','tehran',3666,'tehransar',23563638
+);
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///ID, VendorID, CustomerID, Status, PaymentType, CreatedAt, DeliveryAddress
+
+
+INSERT INTO orders
+	VALUES(500,1000,0,'Registered','Creditpayment','2018-11-10','velenjak');
+INSERT INTO orders
+	VALUES(501,1000,0,'Registered','Creditpayment','2018-1-8','Niavaran');
+INSERT INTO orders
+	VALUES(502,1000,0,'Registered','Creditpayment','2018-1-6','pasdaran');
+INSERT INTO orders
+	VALUES(503,1000,0,'Registered','Creditpayment','2018-12-18','ponak');
+INSERT INTO orders
+	VALUES(504,1000,0,'Registered','Creditpayment','2018-6-12','velenjak');
+INSERT INTO orders
+	VALUES(505,1000,0,'Registered','Creditpayment','2018-11-10','Jamaran');
+INSERT INTO orders
+	VALUES(506,1000,0,'Registered','Bankpayment','2018-1-8','Doulat');
+INSERT INTO orders
+	VALUES(507,1000,0,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(508,1000,0,'Registered','Bankpayment','2018-12-18','Gisha');
+INSERT INTO orders
+	VALUES(509,1000,0,'Registered','Bankpayment','2018-6-12','Farahzad');
+INSERT INTO orders
+	VALUES(510,1001,1,'Registered','Creditpayment','2018-1-10','velenjak');
+INSERT INTO orders
+	VALUES(511,1001,1,'Registered','Creditpayment','2018-9-8','Niavaran');
+INSERT INTO orders
+	VALUES(512,1001,1,'Registered','Creditpayment','2018-6-6','pasdaran');
+INSERT INTO orders
+	VALUES(513,1001,1,'Registered','Creditpayment','2018-8-18','ponak');
+INSERT INTO orders
+	VALUES(514,1001,1,'Registered','Creditpayment','2018-6-12','velenjak');
+INSERT INTO orders
+	VALUES(515,1002,1,'Registered','Creditpayment','2018-11-10','Jamaran');
+INSERT INTO orders
+	VALUES(516,1004,1,'Registered','Bankpayment','2018-1-8','Doulat');
+INSERT INTO orders
+	VALUES(517,1003,1,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(518,1003,1,'Registered','Bankpayment','2018-12-18','Gisha');
+INSERT INTO orders
+	VALUES(519,1005,1,'Registered','Bankpayment','2018-6-12','Farahzad');
+INSERT INTO orders
+	VALUES(520,1006,2,'Registered','Creditpayment','2018-1-10','velenjak');
+INSERT INTO orders
+	VALUES(521,1006,2,'Registered','Creditpayment','2018-9-8','Niavaran');
+INSERT INTO orders
+	VALUES(522,1007,2,'Registered','Creditpayment','2018-6-6','pasdaran');
+INSERT INTO orders
+	VALUES(523,1008,3,'Registered','Creditpayment','2018-8-18','ponak');
+INSERT INTO orders
+	VALUES(524,1008,3,'Registered','Creditpayment','2018-6-12','velenjak');
+INSERT INTO orders
+	VALUES(525,1008,3,'Registered','Creditpayment','2018-11-10','Jamaran');
+INSERT INTO orders
+	VALUES(526,1008,4,'Registered','Bankpayment','2018-1-8','Doulat');
+INSERT INTO orders
+	VALUES(527,1007,5,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(528,1008,4,'Registered','Bankpayment','2018-12-18','Gisha');
+INSERT INTO orders
+	VALUES(529,1006,5,'Registered','Bankpayment','2018-6-12','Farahzad');
+INSERT INTO orders
+	VALUES(530,1007,5,'Registered','Creditpayment','2018-1-10','velenjak');
+INSERT INTO orders
+	VALUES(531,1009,6,'Registered','Creditpayment','2018-9-8','Niavaran');
+INSERT INTO orders
+	VALUES(532,1001,7,'Registered','Creditpayment','2018-6-6','pasdaran');
+INSERT INTO orders
+	VALUES(533,1002,8,'Registered','Creditpayment','2018-8-18','ponak');
+INSERT INTO orders
+	VALUES(534,1003,8,'Registered','Creditpayment','2018-6-12','velenjak');
+INSERT INTO orders
+	VALUES(535,1004,9,'Registered','Creditpayment','2018-11-10','Jamaran');
+INSERT INTO orders
+	VALUES(536,1005,10,'Registered','Bankpayment','2018-1-8','Doulat');
+INSERT INTO orders
+	VALUES(537,1006,10,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(538,1007,11,'Registered','Bankpayment','2018-12-18','Gisha');
+INSERT INTO orders
+	VALUES(539,1008,12,'Registered','Bankpayment','2018-6-12','Farahzad');
+INSERT INTO orders
+	VALUES(540,1008,14,'Registered','Bankpayment','2018-1-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(541,1006,15,'Registered','Bankpayment','2018-12-18','Gisha');
+INSERT INTO orders
+	VALUES(542,1005,16,'Registered','Bankpayment','2018-3-12','Farahzad');
+INSERT INTO orders
+	VALUES(543,1002,17,'Registered','Bankpayment','2018-3-6','Ekhtiarieh');
+INSERT INTO orders
+	VALUES(544,1003,17,'Registered','Bankpayment','2018-2-18','Gisha');
+INSERT INTO orders
+	VALUES(545,1003,16,'Registered','Bankpayment','2018-3-12','Farahzad');
 
 
 
