@@ -422,3 +422,58 @@ INSERT INTO orders
 
 
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////////////////////////
+
+
+
+////\\`product`(`ID`, `Title`, `price`)
+
+
+INSERT INTO product
+    VALUES(300,'Shampoo',12000);
+
+
+INSERT INTO product
+    VALUES(301,'Butter',65000);
+
+INSERT INTO product
+    VALUES(302,'Sugar',958000);
+
+INSERT INTO product
+    VALUES(303,'Oil',968000);
+
+INSERT INTO product
+    VALUES(304,'Fish',553000);
+
+INSERT INTO product
+    VALUES(305,'Meat',15400);
+
+INSERT INTO product
+    VALUES(306,'Pencil',125000);
+
+INSERT INTO product
+    VALUES(307,'note book',623400);
+
+INSERT INTO product
+    VALUES(308,'PEN',154600);
+
+INSERT INTO product
+    VALUES(309,'لازانیا',152000);
+
+INSERT INTO product
+    VALUES(310,'Chicken',151202);
+
+INSERT INTO product
+    VALUES(311,'Macaroni',832000);
+
+INSERT INTO product
+    VALUES(312,'drinks',798700);
+
+INSERT INTO product
+    VALUES(313,'Socks',646840);
+
+INSERT INTO product
+    VALUES(314,'Glue',40000);
+
+INSERT INTO product
+    VALUES(315,'WateR',450000);
