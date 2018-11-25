@@ -1,8 +1,6 @@
 create view customer_product as
 select * 
 from customer natrula join Order natrual join orderProduct
-
-
 select customer.`FirstName`,customer.`LastName`
 from customer 
 where id in (select t.id

@@ -1,178 +1,4 @@
 
-CREATE TABLE `Ap1`.`Order`( 
-    `ID` INT(4) NOT NULL, 
-    `VendorID` INT(4) NOT NULL, 
-    `CustomerID`INT(4) NOT NULL, 
-    `Status`VARCHAR(20) NOT NULL, 
-    `PaymentType`VARCHAR(20) NOT NULL, 
-    `CreatedAt`DATE, 
-    `DeliveryAddress` VARCHAR(100)  
-);
-
-
-CREATE TABLE `Ap1`.`Customer`( 
-    `ID` INT(4) NOT NULL, 
-    `Email` VARCHAR(50),
-    `Password` INT(20),
-    `FirstName` VARCHAR(50),
-    `LastName` VARCHAR(50),
-    `Sex` VARCHAR(8),
-    `Credit` BIGINT(999999999),
-    `Cellphone` INT(8),
-    `Address` VARCHAR(100)
-);
-
-
-CREATE TABLE `AP1`.`Manager`(
-    `ID` INT(4) NOT NULL, 
-    `Email` VARCHAR(50),
-    `Password` INT(20),
-    `FirstName` VARCHAR(50),
-    `LastName` VARCHAR(50),
-    `Sex` VARCHAR(8),
-    `Cellphone` INT(11) ,
-    `Address` VARCHAR(100)
-);
-
-
-
-CREATE TABLE `Ap1`.`Order`( 
-    `ID` INT(4) NOT NULL, 
-    `VendorID` INT(4) NOT NULL, 
-    `CustomerID`INT(4) NOT NULL, 
-    `Status`VARCHAR(20) NOT NULL, 
-    `PaymentType`VARCHAR(20) NOT NULL, 
-    `CreatedAt`DATE, 
-    `DeliveryAddress` VARCHAR(100)  
-);
-
-
-CREATE TABLE `Ap1`.`Customer`( 
-    `ID` INT(4) NOT NULL, 
-    `Email` VARCHAR(50),
-    `Password` INT(20),
-    `FirstName` VARCHAR(50),
-    `LastName` VARCHAR(50),
-    `Sex` VARCHAR(8),
-    `Credit` BIGINT(200),
-    `Cellphone` INT(8),
-    `Address` VARCHAR(100)
-);
-
-
-CREATE TABLE `AP1`.`Manager`(
-    `ID` INT(4) NOT NULL, 
-    `Email` VARCHAR(50),
-    `Password` INT(20),
-    `FirstName` VARCHAR(50),
-    `LastName` VARCHAR(50),
-    `Sex` VARCHAR(8),
-    `Cellphone` INT(11) ,
-    `Address` VARCHAR(100)
-);
-
-
-CREATE TABLE `AP1`.`Vendor`(
-    `ID` INT(4) NOT NULL, 
-    `Title` varchar(50),
-    `City` varchar(30),
-    `ManagerID` int(4),
-	`Address` VARCHAR(100),
-	`Phone` int(8)
-);
-
-
-CREATE TABLE `ap1`.`Product`(
-	`ID` INT(4) NOT NULL, 
-    `Title` varchar(50),
-    `price` BIGINT(200)
-);
-    
-
-CREATE TABLE `ap1`.`VendorProduct`(
-	`venderid` int(4) ,
-    `productid` int(4),
-    `amount` int(20)
-);
-    
-
-CREATE TABLE `ap1`.`OrderProduct`(
-	`OrderID` int(4) ,
-	`productid` int(4),
-    `amount` int(20)
-);
-
-
-CREATE TABLE `AP1`.`Vendor`(
-    `ID` INT(4) NOT NULL, 
-    `Title` varchar(50),
-    `City` varchar(30),
-    `ManagerID` int(4),
-	`Address` VARCHAR(100),
-	`Phone` int(8)
-);
-
-
-CREATE TABLE `ap1`.`Product`(
-	`ID` INT(4) NOT NULL, 
-    `Title` varchar(50),
-    `price` BIGINT(999999999)
-);
-    
-
-CREATE TABLE `ap1`.`VendorProduct`(
-	`venderid` int(4) ,
-    `productid` int(4),
-    `amount` int(20)
-);
-    
-
-CREATE TABLE `ap1`.`OrderProduct`(
-	`OrderID` int(4) ,
-	`productid` int(4),
-    `amount` int(20)
-);
-
-
-
-
-ALTER TABLE `manager` ADD PRIMARY KEY(`ID`);
-
-ALTER TABLE `vendor` ADD PRIMARY KEY(`ID`);
-
-ALTER TABLE `orders` ADD PRIMARY KEY(`ID`);
-
-ALTER TABLE `product` ADD PRIMARY KEY(`ID`);
-
-ALTER TABLE `VENDORproduct` ADD PRIMARY KEY(`productid`,`Venderid`);
-
-ALTER TABLE `OrderProduct` ADD PRIMARY KEY(`OrderID`,`ProductID`);
-
-ALTER TABLE Orders
-ADD FOREIGN KEY (CustomerID)
-REFERENCES CUSTOMER(ID);
-
-ALTER TABLE vendorproduct
-ADD FOREIGN KEY (venderid)
-REFERENCES vendor(ID);
-
-
-ALTER TABLE vendorproduct
-ADD FOREIGN KEY (productid)
-REFERENCES product(ID);
- 
-ALTER TABLE orderproduct
-ADD FOREIGN KEY (OrderID)
-REFERENCES orders(ID);
-
-ALTER TABLE orderproduct
-ADD FOREIGN KEY (productid)
-REFERENCES product(ID);
-
-
-
- 
-
 INSERT INTO Customer
 	VALUES(0,'sqfghwda@sas.com',2000,'sina','hamidi','male',178000000,09128966548,'velenjak');
 
@@ -228,7 +54,7 @@ INSERT INTO Customer
 	VALUES(17,'k,jhk,@gmail.com',3455,'setare','norhoseyni','female',63963000,09114786597,'pasdaran');
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 INSERT INTO Manager
@@ -302,7 +128,7 @@ INSERT INTO Manager
     VALUES(122,'rjh57uyhjnd@gmail.com',8392,'farnaz','oodi','female',09136546456,'darake');
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 INSERT INTO vendor
@@ -346,9 +172,9 @@ INSERT INTO vendor
 );
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-///ID, VendorID, CustomerID, Status, PaymentType, CreatedAt, DeliveryAddress
+
+
 
 
 INSERT INTO orders
@@ -490,11 +316,11 @@ INSERT INTO orders
 	VALUES(545,1003,16,'Registered','Bankpayment','2018-3-12','Farahzad');
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////////////////////////
 
 
 
-////\\`product`(`ID`, `Title`, `price`)
+
+
 
 
 INSERT INTO product
@@ -547,7 +373,8 @@ INSERT INTO product
     VALUES(315,'WateR',450000);
 
 
-/////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 INSERT INTO VendorProduct
@@ -659,7 +486,8 @@ INSERT INTO VendorProduct
     VALUES(1007,300,35);
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 
 
 INSERT INTO OrderProduct
@@ -668,38 +496,4 @@ INSERT INTO OrderProduct
 
 INSERT INTO OrderProduct
     VALUES (500,300,2);
-
-UPDATE `orderproduct` SET `amount` = '11' WHERE `orderproduct`.`OrderID` = 506 AND `orderproduct`.`productid` = 303;
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-ALTER TABLE customer
-ADD PRIMARY KEY (ID);
-
-
-
-
-SELECT customer
-FROM `customer`,`orders` 
-WHERE orders.PaymentType='Creditpayment';
-
-
-SELECT FirstName
-FROM 'customer','order' 
-WHERE 'PaymentType'='Creditpayment';
-
-
-
-SELECT orders.`ID`, `VendorID`, `CustomerID`, `Status`, `PaymentType`, `CreatedAt`, `DeliveryAddress` 
-FROM `orders`,`customer` 
-WHERE PaymentType='Creditpayment';
-
-
-
 
