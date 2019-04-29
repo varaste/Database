@@ -1,1 +1,0 @@
-insert into College ('Carnegie Mellon', 'PA', 11500)
