@@ -1,0 +1,33 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL; 
+USE IEEE.std_logic_unsigned.ALL; 
+ 
+ entity RAM is 
+ port (clk : in std_logic; 
+ 	we  : in std_logic; 
+ 	a   : in std_logic_vector(3 downto 0); 
+ 	di  : in std_logic_vector(3 downto 0); 
+ 	do  : out std_logic_vector(3 downto 0)); 
+ end RAM; 
+ 
+ architecture syn of RAM is 
+ 
+ type ram_type is array (15 downto 0) of std_logic_vector (3 downto 0); 
+ signal RAM : ram_type; 
+ 
+ begin 
+ process (clk) 
+ begin 
+ 	if (clk'event and clk = '1') then  
+ 		if (we = '1') then 
+ 			RAM(conv_integer(a)) <= di;
+			do <= (OTHERS => 'Z');
+		else 
+			do <= RAM(conv_integer(a));
+ 		end if; 
+ 	end if; 
+ end process; 
+ 
+ 
+ end syn;
+ 
