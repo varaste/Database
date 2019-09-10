@@ -8,10 +8,9 @@ architecture behavioral of counter_int is
     begin
 counter:process(clk)
         variable cnt:Integer range 0 to 255;	--(1)
-        begin
+o
          if (clk'event AND clk='1')then
 		 cnt:=cnt+1;				--(2)
 		 end if;
 		count<=cnt;
 		end process;
-end;
