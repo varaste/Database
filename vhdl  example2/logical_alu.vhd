@@ -8,7 +8,5 @@ architecture behav of logical_alu is
 beg
        	    (a  nand  b)  when op="010" else
        	    (a  nor  b)    when op="011" else
-       	    (a  xor  b)    when op="100" else
-       	    (not a)         when op="110" else
-       	    b;
+       	    
 end behav;
