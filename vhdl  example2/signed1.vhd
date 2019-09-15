@@ -3,12 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_signed.all;	-- (1)
 
 entity signed1 is
-port(
-	a, b :in std_logic_vector(4 downto 0);
-	addo : out std_logic_vector(4 downto 0);
-	subo : out std_logic_vector(4 downto 0)
-	);
-end;
+p
 
 architecture behavior of signed1 is
 begin
