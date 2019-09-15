@@ -7,10 +7,7 @@ package utility2 is
 type tshift is (shiftpass, shl, shr,rotl, rotr);--(1)
 --declaring constants
 constant andop:std_logic_vector(3 downto 0):="0001";--(2)
-constant ordop:std_log
-entity ALU is
-   port(a,b:in std_logic_vector(7 downto 0);
-         sel:in std_logic_vector(3 downto 0);
+c
          c:out std_logic_vector (7 downto 0));
 end;
 architecture behavior of ALU is
