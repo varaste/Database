@@ -5,9 +5,7 @@ port ( a,b : in  std_logic_vector(3 downto 0);
 end logical_alu;
 
 architecture behav of logical_alu is
-begin
-alu_out  <= (a  and  b)    when op="000" else
-       	    (a  or  b)      when op="001" else
+beg
        	    (a  nand  b)  when op="010" else
        	    (a  nor  b)    when op="011" else
        	    (a  xor  b)    when op="100" else
