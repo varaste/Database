@@ -5,12 +5,7 @@ use ieee.std_logic_unsigned.all;
 entity ROM is
 	port(
 		adr	 : in std_logic_vector(4 downto 0);
-		do	 : out std_logic_vector(3 downto 0)
-		);
-end ROM;
---
-architecture dataflow of ROM is
-	type rom is array (0 to 31) of std_logic_vector(3 downto 0);
+		do	 : out std_logic_ve
 	constant mem : rom :=(
 				-- Content	-- Address
 				"0011",		-- 00
