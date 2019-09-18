@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 package utility2 is
 --Declaration part
 --declaraing types
-type tshift is (shiftpass, shl, shr,rotl, rotr);--(1)
+ shl, shr,rotl, rotr);--(1)
 --declaring constants
 constant andop:std_logic_vector(3 downto 0):="0001";--(2)
 c
