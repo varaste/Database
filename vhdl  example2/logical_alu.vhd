@@ -6,7 +6,6 @@ end logical_alu;
 
 architecture behav of logical_alu is
 beg
-       	    (a  nand  b)  when op="010" else
-       	    (a  nor  b)    when op="011" else
+       	   op="011" else
        	    
 end behav;
