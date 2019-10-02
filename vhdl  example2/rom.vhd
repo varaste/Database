@@ -12,6 +12,3 @@ entity ROM is
 				"1010"		-- 31
 				);
 begin
-	do 	<= mem(conv_integer(adr));
-end dataflow;
-
