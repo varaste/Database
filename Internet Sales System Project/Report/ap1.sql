@@ -94,7 +94,7 @@ INSERT INTO `manager` (`ID`, `Email`, `Password`, `FirstName`, `LastName`, `Sex`
 (105, 'posdv@gmail.com', 393, 'reza', 'madani', 'male', 2147483647, 'vanak'),
 (106, 'ewnwe@gmail.com', 1377, 'sourush', 'noshad', 'male', 2147483647, 'darake'),
 (107, 'welnfln@gmail.com', 1377, 'mahdi', 'ahmadpanah', 'male', 2147483647, 'Narmak'),
-(108, 'wefinwe@gmail.com', 4680, 'mahdis', 'nikpor', 'male', 2147483647, 'velenjak'),
+(108, 'wefinwe@gmail.com', 4680, 'mina', 'nikpor', 'male', 2147483647, 'velenjak'),
 (109, 'poiwjef@gmail.com', 191, 'Laleh', 'khodaverdian', 'male', 2147483647, 'Lavizan'),
 (110, 'asdvf@gmail.com', 8392, 'Neda', 'bagheri', 'male', 2147483647, 'Shemiran'),
 (111, 'brf@gmail.com', 1335, 'satar', 'ahmadi', 'male', 2147483647, 'SaadatAbad'),
